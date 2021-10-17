@@ -112,8 +112,7 @@
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
-            "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "e2edemo:serve"
+            "protractorConfig": "e2e/protractor.conf.js"
           },
           "configurations": {
             "production": {
